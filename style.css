@@ -43,7 +43,7 @@ nav {
     font-size: 3vh;
 }
 
-main {
+.home-main {
     height: 100%;
     box-sizing: border-box;
     display: grid;
@@ -97,5 +97,27 @@ input {
 }
 
 
+ /* ....................... games page   ............................. */
 
 
+.page-container {
+    height: 100%;
+    border: 1px solid;
+    box-sizing: border-box;
+
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 15% 5% 75% 5%;
+}
+
+
+.page-container > * {
+    border: 1px solid;
+}
+
+
+main > img {
+    margin-top: 100px;
+    height: 400px;
+    width: 250px;
+}
