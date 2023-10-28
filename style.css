@@ -121,3 +121,9 @@ main > img {
     height: 400px;
     width: 250px;
 }
+
+ /* ....................... shirts page   ............................. */
+
+ .carousel img {
+    height: 500px;
+ }
